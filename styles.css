@@ -17,7 +17,7 @@ hr {
 }
 
 :root {
-  --primary-color: #0e736b;
+  --primary-color: #a02424;
   --darkgrey-color: #1f2937;
   --offwhite-color: #fef3c7; /** #fde68a;**/
   --shadow-color-primary: #ad628ba4;
@@ -68,7 +68,7 @@ hr {
 .list-item-inline a:hover,
 .blog-section a:hover {
   /* transform: scale(1.05); */
-  text-decoration: underline;
+  /* text-decoration: underline; */
   box-shadow: 5px 10px var(--shadow-color-primary);
 }
 
@@ -120,7 +120,7 @@ hr {
   text-align: left; */
   text-align: left;
   max-width: min-content;
-  color: var(--primary-color);
+  color: #0e736b;
   display: inline;
   font-size: 4rem;
   margin-left: 5rem;
