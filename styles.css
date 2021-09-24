@@ -7,7 +7,7 @@ body {
   line-height: 2.3em;
   font-weight: 200;
   background: url("images/cubes.png");
-  background-color: #ffffff;
+  background-color: rgb(219, 232, 236);
   background-image: url("https://www.transparenttextures.com/patterns/cream-dust.png");
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */ /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */ /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */ /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
