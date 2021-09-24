@@ -7,10 +7,9 @@ body {
   line-height: 2.3em;
   font-weight: 200;
   background: url("images/cubes.png");
-  background-color: #d5dbd4;
-background-image: url("https://www.transparenttextures.com/patterns/cream-dust.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! *//* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! *//* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/cream-dust.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */ /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */ /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */ /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 hr {
   margin: 2rem 2rem;
@@ -87,7 +86,7 @@ hr {
   background-color: var(--primary-color);
   color: beige;
   border-bottom-left-radius: 1rem;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .navigation .nav-brand {
@@ -174,17 +173,57 @@ hr {
 }
 
 .background-main {
-  background: rgba(116,179,206,1);
-background: -moz-linear-gradient(left, rgba(116,179,206,1) 0%, rgba(80,137,145,1) 15%, rgba(23,42,58,1) 37%, rgba(0,67,70,1) 62%, rgba(9,188,138,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(116,179,206,1)), color-stop(15%, rgba(80,137,145,1)), color-stop(37%, rgba(23,42,58,1)), color-stop(62%, rgba(0,67,70,1)), color-stop(100%, rgba(9,188,138,1)));
-background: -webkit-linear-gradient(left, rgba(116,179,206,1) 0%, rgba(80,137,145,1) 15%, rgba(23,42,58,1) 37%, rgba(0,67,70,1) 62%, rgba(9,188,138,1) 100%);
-background: -o-linear-gradient(left, rgba(116,179,206,1) 0%, rgba(80,137,145,1) 15%, rgba(23,42,58,1) 37%, rgba(0,67,70,1) 62%, rgba(9,188,138,1) 100%);
-background: -ms-linear-gradient(left, rgba(116,179,206,1) 0%, rgba(80,137,145,1) 15%, rgba(23,42,58,1) 37%, rgba(0,67,70,1) 62%, rgba(9,188,138,1) 100%);
-background: linear-gradient(to right, rgba(116,179,206,1) 0%, rgba(80,137,145,1) 15%, rgba(23,42,58,1) 37%, rgba(0,67,70,1) 62%, rgba(9,188,138,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74b3ce', endColorstr='#09bc8a', GradientType=1 );
-Copy text
-
-Color format
+  background: rgba(116, 179, 206, 1);
+  background: -moz-linear-gradient(
+    left,
+    rgba(116, 179, 206, 1) 0%,
+    rgba(80, 137, 145, 1) 15%,
+    rgba(23, 42, 58, 1) 37%,
+    rgba(0, 67, 70, 1) 62%,
+    rgba(9, 188, 138, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0%, rgba(116, 179, 206, 1)),
+    color-stop(15%, rgba(80, 137, 145, 1)),
+    color-stop(37%, rgba(23, 42, 58, 1)),
+    color-stop(62%, rgba(0, 67, 70, 1)),
+    color-stop(100%, rgba(9, 188, 138, 1))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(116, 179, 206, 1) 0%,
+    rgba(80, 137, 145, 1) 15%,
+    rgba(23, 42, 58, 1) 37%,
+    rgba(0, 67, 70, 1) 62%,
+    rgba(9, 188, 138, 1) 100%
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(116, 179, 206, 1) 0%,
+    rgba(80, 137, 145, 1) 15%,
+    rgba(23, 42, 58, 1) 37%,
+    rgba(0, 67, 70, 1) 62%,
+    rgba(9, 188, 138, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(116, 179, 206, 1) 0%,
+    rgba(80, 137, 145, 1) 15%,
+    rgba(23, 42, 58, 1) 37%,
+    rgba(0, 67, 70, 1) 62%,
+    rgba(9, 188, 138, 1) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(116, 179, 206, 1) 0%,
+    rgba(80, 137, 145, 1) 15%,
+    rgba(23, 42, 58, 1) 37%,
+    rgba(0, 67, 70, 1) 62%,
+    rgba(9, 188, 138, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74b3ce', endColorstr='#09bc8a', GradientType=1 );
 }
 
 .footer {
