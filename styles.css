@@ -6,7 +6,10 @@ body {
   margin: auto;
   line-height: 2.3em;
   font-weight: 200;
-  background: url("images/sprinkles_@2x.png");
+  background: url("images/cubes.png");
+  background-color: #e9ecef;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! *//* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 hr {
   margin: 2rem 2rem;
@@ -170,69 +173,17 @@ hr {
 }
 
 .background-main {
-  background: rgba(189, 247, 183, 1);
-  background: -moz-linear-gradient(
-    left,
-    rgba(189, 247, 183, 1) 0%,
-    rgba(189, 247, 183, 1) 3%,
-    rgba(95, 207, 151, 1) 27%,
-    rgba(95, 207, 151, 1) 48%,
-    rgba(95, 207, 151, 1) 69%,
-    rgba(48, 187, 135, 1) 93%,
-    rgba(48, 187, 135, 1) 100%
-  );
-  background: -webkit-gradient(
-    left top,
-    right top,
-    color-stop(0%, rgba(189, 247, 183, 1)),
-    color-stop(3%, rgba(189, 247, 183, 1)),
-    color-stop(27%, rgba(95, 207, 151, 1)),
-    color-stop(48%, rgba(95, 207, 151, 1)),
-    color-stop(69%, rgba(95, 207, 151, 1)),
-    color-stop(93%, rgba(48, 187, 135, 1)),
-    color-stop(100%, rgba(48, 187, 135, 1))
-  );
-  background: -webkit-linear-gradient(
-    left,
-    rgba(189, 247, 183, 1) 0%,
-    rgba(189, 247, 183, 1) 3%,
-    rgba(95, 207, 151, 1) 27%,
-    rgba(95, 207, 151, 1) 48%,
-    rgba(95, 207, 151, 1) 69%,
-    rgba(48, 187, 135, 1) 93%,
-    rgba(48, 187, 135, 1) 100%
-  );
-  background: -o-linear-gradient(
-    left,
-    rgba(189, 247, 183, 1) 0%,
-    rgba(189, 247, 183, 1) 3%,
-    rgba(95, 207, 151, 1) 27%,
-    rgba(95, 207, 151, 1) 48%,
-    rgba(95, 207, 151, 1) 69%,
-    rgba(48, 187, 135, 1) 93%,
-    rgba(48, 187, 135, 1) 100%
-  );
-  background: -ms-linear-gradient(
-    left,
-    rgba(189, 247, 183, 1) 0%,
-    rgba(189, 247, 183, 1) 3%,
-    rgba(95, 207, 151, 1) 27%,
-    rgba(95, 207, 151, 1) 48%,
-    rgba(95, 207, 151, 1) 69%,
-    rgba(48, 187, 135, 1) 93%,
-    rgba(48, 187, 135, 1) 100%
-  );
-  background: linear-gradient(
-    to right,
-    rgba(189, 247, 183, 1) 0%,
-    rgba(189, 247, 183, 1) 3%,
-    rgba(95, 207, 151, 1) 27%,
-    rgba(95, 207, 151, 1) 48%,
-    rgba(95, 207, 151, 1) 69%,
-    rgba(48, 187, 135, 1) 93%,
-    rgba(48, 187, 135, 1) 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bdf7b7', endColorstr='#30bb87', GradientType=1 );
+  background: rgba(116,179,206,1);
+background: -moz-linear-gradient(left, rgba(116,179,206,1) 0%, rgba(80,137,145,1) 15%, rgba(23,42,58,1) 37%, rgba(0,67,70,1) 62%, rgba(9,188,138,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(116,179,206,1)), color-stop(15%, rgba(80,137,145,1)), color-stop(37%, rgba(23,42,58,1)), color-stop(62%, rgba(0,67,70,1)), color-stop(100%, rgba(9,188,138,1)));
+background: -webkit-linear-gradient(left, rgba(116,179,206,1) 0%, rgba(80,137,145,1) 15%, rgba(23,42,58,1) 37%, rgba(0,67,70,1) 62%, rgba(9,188,138,1) 100%);
+background: -o-linear-gradient(left, rgba(116,179,206,1) 0%, rgba(80,137,145,1) 15%, rgba(23,42,58,1) 37%, rgba(0,67,70,1) 62%, rgba(9,188,138,1) 100%);
+background: -ms-linear-gradient(left, rgba(116,179,206,1) 0%, rgba(80,137,145,1) 15%, rgba(23,42,58,1) 37%, rgba(0,67,70,1) 62%, rgba(9,188,138,1) 100%);
+background: linear-gradient(to right, rgba(116,179,206,1) 0%, rgba(80,137,145,1) 15%, rgba(23,42,58,1) 37%, rgba(0,67,70,1) 62%, rgba(9,188,138,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74b3ce', endColorstr='#09bc8a', GradientType=1 );
+Copy text
+
+Color format
 }
 
 .footer {
